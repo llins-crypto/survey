@@ -1,0 +1,132 @@
+
+You sent
+/* Base Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #4c4d4e, #444446);
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #050505ef;
+  color: rgba(245, 244, 244, 0.952);
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 5px solid #070707;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #13bbfd;
+  color: rgb(0, 0, 0);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1cf739;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: rgba(250, 246, 5, 0.849);
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Forms */
+form {
+  background: rgb(129, 124, 124);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #6d6666;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #28a745;
+  color: rgb(250, 251, 252);
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #26c5da;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: rgb(250, 243, 243);
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.cartoon {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
